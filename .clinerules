@@ -1,0 +1,25 @@
+{
+  "codingStandards": {
+    "style": "typescript-standard",
+    "linting": "eslint-config"
+  },
+  "memoryBank": {
+    "enabled": true,
+    "contextFiles": [
+      "memory-bank/activeContext.md",
+      "memory-bank/projectbrief.md",
+      "memory-bank/productContext.md",
+      "memory-bank/systemPatterns.md",
+      "memory-bank/techContext.md",
+      "memory-bank/progress.md"
+    ],
+    "prioritization": {
+      "activeContext": "high",
+      "projectbrief": "medium",
+      "systemPatterns": "medium"
+    },
+    "refreshInterval": "1h",
+    "persistentMemory": true,
+    "maxTokens": 8192
+  }
+}
